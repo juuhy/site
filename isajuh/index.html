@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Meias</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.google.com/share?selection.family=Matemasie" rel="stylesheet">
+</head>
+<body>ad>
+<body>
+    <header>
+        <div class="container">
+            <h1>PénaModa</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Descubra a Moda das Meias</h2>
+                <p>Encontre as meias mais estilosas e confortáveis para qualquer ocasião.</p>
+                <a href="#products" class="btn-primary">Ver Produtos</a>
+            </div>
+        </section>
+
+        <section id="products" class="product-section">
+            <div class="container">
+                <h2>Nossos Produtos</h2>
+                <div class="product-gallery">
+                    
+
+                            <div class="product" data-name="Meia Colorida" data-price="20.00">
+                                <img src="Meia Colorida.jpg" alt="Meia Colorida">
+                                <h3>Meia Colorida </h3>
+                                <p>R$ 20,00</p>
+                                <button onclick="addToCart('Meia Colorida 1', 20.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Mario Bross" data-price="22.00">
+                                <img src="Meia Mario Bross.jpg" alt="Meia Mario Bross">
+                                <h3>Meia Mario Bross</h3>
+                                <p>R$ 22,00</p>
+                                <button onclick="addToCart('Meia Mario Bross', 22.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <!-- Adicione os produtos restantes seguindo o mesmo formato -->
+                            <div class="product" data-name="Meia Nirvana" data-price="21.00">
+                                <img src="Meia Nirvana.jpg" alt="Meia Nirvana">
+                                <h3>Meia Nirvana</h3>
+                                <p>R$ 21,00</p>
+                                <button onclick="addToCart('Meia Nirvana', 21.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Pinguim" data-price="23.00">
+                                <img src="Meia Pinguim.jpg" alt="Meia Pinguim">
+                                <h3>Meia Pinguim</h3>
+                                <p>R$ 23,00</p>
+                                <button onclick="addToCart('Meia Pinguim', 23.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Foxy" data-price="20.50">
+                                <img src="Meia Foxy.jpg" alt="Meia Foxy">
+                                <h3>Meia Foxy</h3>
+                                <p>R$ 20,50</p>
+                                <button onclick="addToCart('Meia Foxy', 20.50)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Pig" data-price="24.00">
+                                <img src="Meia Pig.jpg" alt="Meia Pig">
+                                <h3>Meia Pig</h3>
+                                <p>R$ 24,00</p>
+                                <button onclick="addToCart('Meia Pig', 24.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Cow" data-price="19.00">
+                                <img src="Meia Cow.png" alt="Meia Cow">
+                                <h3>Meia Cow</h3>
+                                <p>R$ 19,00</p>
+                                <button onclick="addToCart('Meia Cow', 19.00)">Adicionar ao Carrinho</button>
+                            </div>
+                            <div class="product" data-name="Meia CapiNauta" data-price="25.00">
+                                <img src="Meia CapiNauta.png" alt="Meia CapiNauta">
+                                <h3>Meia CapiNauta</h3>
+                                <p>R$ 25,00</p>
+                                <button onclick="addToCart('Meia CapiNauta', 25.00)">Adicionar ao Carrinho</button>
+                            </div>
+                            <div class="product" data-name="Meia Capibruxo" data-price="22.50">
+                                <img src="Meia Capibruxo.png" alt="Meia Capibruxo">
+                                <h3>Meia Capibruxo</h3>
+                                <p>R$ 22,50</p>
+                                <button onclick="addToCart('Meia Capibruxo', 22.50)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia CapiNada" data-price="21.00">
+                                <img src="Meia CapiNada.jpg" alt="Meia CapiNada">
+                                <h3>Meia CapiNada</h3>
+                                <p>R$ 21,00</p>
+                                <button onclick="addToCart('Meia CapiNada', 21.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia CapiRango" data-price="23.00">
+                                <img src="Meia CapiRango.png" alt="Meia CapiRango">
+                                <h3>Meia CapiRango</h3>
+                                <p>R$ 23,00</p>
+                                <button onclick="addToCart('Meia CapiRango', 23.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Broccoli" data-price="24.50">
+                                <img src="Meia Broccoli.jpg" alt="Meia Broccoli">
+                                <h3>Meia Broccoli</h3>
+                                <p>R$ 24,50</p>
+                                <button onclick="addToCart('Meia Broccoli', 24.50)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Cogumelo" data-price="20.00">
+                                <img src="Meia Cogumelo.jpg" alt="Meia Cogumelo">
+                                <h3>Meia Cogumelo</h3>
+                                <p>R$ 20,00</p>
+                                <button onclick="addToCart('Meia Cogumelo', 20.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Kisses" data-price="22.00">
+                                <img src="Meia Kisses.jpg" alt="Meia Kisses">
+                                <h3>Meia Kisses</h3>
+                                <p>R$ 22,00</p>
+                                <button onclick="addToCart('Meia Kisses', 22.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Wattermellow" data-price="21.50">
+                                <img src="Meia Wattermellow.jpg" alt="Meia Wattermellow">
+                                <h3>Meia Wattermellow</h3>
+                                <p>R$ 21,50</p>
+                                <button onclick="addToCart('Meia Wattermellow', 21.50)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Maravilha" data-price="23.50">
+                                <img src="Meia Maravilha.png" alt="Meia Maravilha">
+                                <h3>Meia Maravilha</h3>
+                                <p>R$ 23,50</p>
+                                <button onclick="addToCart('Meia Maravilha', 23.50)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Cyber" data-price="19.50">
+                                <img src="Meia Cyber.jpg" alt="Meia Cyber">
+                                <h3>Meia Cyber</h3>
+                                <p>R$ 19,50</p>
+                                <button onclick="addToCart('Meia Cyber', 19.50)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Galinha" data-price="25.00">
+                                <img src="Meia Galinha.jpg" alt="Meia Galinha">
+                                <h3>Meia Galinha</h3>
+                                <p>R$ 25,00</p>
+                                <button onclick="addToCart('Meia Galinha', 25.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Face" data-price="22.00">
+                                <img src="Meia Face.jpg" alt="Meia Face">
+                                <h3>Meia Face</h3>
+                                <p>R$ 22,00</p>
+                                <button onclick="addToCart('Meia Face', 22.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Avocado" data-price="24.00">
+                                <img src="Meia Avocado.png" alt="Meia Avocado">
+                                <h3>Meia Avocado</h3>
+                                <p>R$ 24,00</p>
+                                <button onclick="addToCart('Meia Avocado', 24.00)">Adicionar ao Carrinho</button>
+                            </div>
+
+                            <div class="product" data-name="Meia Muu" data-price="20.00">
+                                <img src="Meia Muu.jpg" alt="Meia Muu">
+                                <h3>Meia Muu</h3>
+                                <p>R$ 20,00</p>
+                                <button onclick="addToCart('Meia Muu', 20.00)">Adicionar ao Carrinho</button>
+
+                            
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <h2>Carrinho de Compras</h2>
+    <ul id="cart">
+        <!-- Itens do carrinho serão adicionados aqui -->
+    </ul>
+    <p id="total">Total: R$0.00</p>
+                <script>
+                     let cart = [];
+
+function addToCart(button) {
+    const productDiv = button.closest('.product');
+    const id = productDiv.getAttribute('data-id');
+    const name = productDiv.getAttribute('data-name');
+    const price = parseFloat(productDiv.getAttribute('data-price'));
+
+    // Verifica se o produto já está no carrinho
+    const existingProduct = cart.find(item => item.id === id);
+    if (existingProduct) {
+        existingProduct.quantity += 1;
+    } else {
+        cart.push({ id, name, price, quantity: 1 });
+    }
+
+    updateCart();
+}
+
+function updateCart() {
+    const cartList = document.getElementById('cart');
+    const totalElement = document.getElementById('total');
+
+    cartList.innerHTML = '';
+    let total = 0;
+
+    cart.forEach(item => {
+        total += item.price * item.quantity;
+        const listItem = document.createElement('li');
+        listItem.textContent = `${item.name} - R$${item.price.toFixed(2)} x ${item.quantity}`;
+        cartList.appendChild(listItem);
+    });
+
+    totalElement.textContent = `Total: R$${total.toFixed(2)}`;
+}            
+                </script>
+        
+                <section id="about" class="about-section">
+                    <div class="container">
+                        <h2>Sobre Nós</h2>
+                        <p>Na Loja de Meias, oferecemos uma seleção de meias de alta qualidade, combinando conforto e estilo. Nossos produtos são escolhidos com cuidado para garantir a satisfação de nossos clientes.</p>
+                        <h2>Bem-vindo à Meias Conforto!</h2>
+                        <p>Na Meias Conforto, nossa missão é proporcionar conforto e estilo aos seus pés com uma coleção de meias de alta qualidade. Fundada em 2010, nossa loja se destaca por oferecer produtos que combinam conforto, durabilidade e design inovador.</p>
+            
+                        <p>Com um compromisso constante com a excelência, buscamos os melhores materiais e empregamos técnicas de produção avançadas para garantir que cada par de meias não apenas satisfaça, mas supere as expectativas dos nossos clientes. Desde meias esportivas até modelos mais sofisticados, temos algo para cada ocasião e gosto.</p>
+            
+                        <img src="banner.PNG" alt="Meias Conforto - Loja de Meias">
+            
+                        <p>Nosso compromisso vai além de oferecer produtos excepcionais. Valorizamos a sustentabilidade e a responsabilidade social. Por isso, trabalhamos com fornecedores que compartilham nossos valores e implementamos práticas que minimizam nosso impacto ambiental.</p>
+                    </section>
+            
+                    <section>
+                        <h2>Nossa Equipe</h2>
+                        <div class="team-member">
+                            <img src="isa.jpg" alt="Foto do membro da equipe">
+                            <div>
+                                <h3>Isabelli Guimarães</h3>
+                                <p><strong>Fundadora e CEO</strong> - isa é o coração e a alma da PénaMeia. Com mais de 8 anos de experiência na indústria têxtil, ela fundou a PénaMeia com a visão de criar um produto que une qualidade e estilo. Seu compromisso com a inovação e a satisfação do cliente é o que impulsiona a empresa.</p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://via.placeholder.com/100" alt="Foto do membro da equipe">
+                            <div>
+                                <h3>Juliana Santos</h3>
+                                <p><strong>Designer de Produto</strong> - Ju traz um toque criativo para a PénaMeia. Com um olhar apurado para tendências e detalhes, ela é responsável por desenhar as coleções que nossos clientes adoram. Sua paixão por design e moda é evidente em cada par de meias que criamos.</p>
+                            </div>
+                        </div>
+                        <!-- Adicione mais membros da equipe conforme necessário -->
+                    </section>
+            
+                    <section>
+                        <h2>Nosso Compromisso com a Qualidade</h2>
+                        <p>Na PédeMeia, acreditamos que cada detalhe conta. Desde a seleção cuidadosa dos materiais até o processo de fabricação, garantimos que cada par de meias ofereça o máximo conforto e durabilidade. Nossa equipe de controle de qualidade realiza inspeções rigorosas para assegurar que nossos produtos atendam aos mais altos padrões.</p>
+            
+                        <p>Estamos sempre em busca de melhorias e inovações para oferecer o melhor para nossos clientes. Sua satisfação é nossa maior recompensa, e estamos aqui para garantir que cada experiência com a Meias Conforto seja memorável e agradável.</p>
+                    </section>
+            
+                    <section>
+                        <h2>Entre em Contato Conosco</h2>
+                        <p>Se você tiver alguma dúvida ou sugestão, não hesite em entrar em contato conosco. Nossa equipe está sempre pronta para ajudar e ouvir você. Visite nossa <a href="/contato">página de contato</a> para mais informações.</p>
+                    </div>
+                </section>
+
+               
+                    <!-- Adicione mais produtos conforme necessário -->
+                </div>
+            </div>
+        </section>
+
+    
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contato</h2>
+                <form id="contactForm">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit" class="btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pé na Moda. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
